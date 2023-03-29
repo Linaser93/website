@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple Form</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<form method="POST" action="#">
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" required><br><br>
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required><br><br>
+		<label for="checkbox">Checkbox:</label>
+		<input type="checkbox" id="checkbox" name="checkbox"><br><br>
+		<label>Radio Buttons:</label><br>
+		<label for="option1"><input type="radio" id="option1" name="radio" value="option1" required>Option 1</label><br>
+		<label for="option2"><input type="radio" id="option2" name="radio" value="option2">Option 2</label><br><br>
+		<label for="select">Select:</label>
+		<select id="select" name="select">
+			<option value="option1">Option 1</option>
+			<option value="option2">Option 2</option>
+			<option value="option3">Option 3</option>
+		</select><br><br>
+		<button type="submit">Submit</button>
+	</form>
+</body>
+</html>
